@@ -104,3 +104,7 @@ input[type=submit]:hover {
   font-size: 40px;
   text-decoration: none;
 }
+
+#resume {
+  width: 100%;
+}
