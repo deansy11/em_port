@@ -43,6 +43,7 @@ img {
 }
 
 #skills li {
+  float: right;
   display: inline-block;
   margin: 10px;
   padding: 3%;
@@ -80,4 +81,26 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #FFF8DF;
     padding: 20px;
+}
+
+.footer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3E5899;
+}
+
+.footer li {
+  padding: 14px 16px;
+  margin-left: 20px;
+  float: left;
+  list-style: none;
+}
+
+.footer li i {
+  display: block;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
